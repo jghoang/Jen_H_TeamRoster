@@ -1,0 +1,30 @@
+
+body {
+	margin: 0 auto;
+	 max-width: 800px;
+  	
+}
+input.lnk-btn {
+    background:none;
+     color:inherit;
+     border:none; 
+     padding:0!important;
+     font: inherit;
+     /*border is optional*/
+     border-bottom:1px solid #444; 
+     cursor: pointer;
+}
+
+table {
+  width: 600px;
+  border: 2px solid black;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
